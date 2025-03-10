@@ -8,15 +8,15 @@
   <body>
     <div class="container">
       <form action="" method="post">
-      	<label style="display:block" for="pdt_auto">Please start typing in the text box below for suggestions</label>
-      	<input id="pdt_auto" name="product" type="text" placeholder="Start typing here" size="100"/>
+      	<label style="display:block" for="pdt_auto_input">Please start typing in the text box below for suggestions</label>
+      	<input id="pdt_auto_input" name="product" type="text" placeholder="Start typing here" size="100"/>
       </form>
     </div>
     <div class="container" id="auto_holder">
     </div>
     <script type="text/javascript">
 		$(function(){
-			var $input = $('#pdt_auto')
+			var $input = $('#pdt_auto_input')
 			,$results = $('#auto_holder')
 			,ajaxCall = null
 			,prev = '';
